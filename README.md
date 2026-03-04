@@ -3,7 +3,7 @@
 **Cybersecurity Analyst in Training — HTB CJCA Certified | CPTS Candidate**
 
 📍 Madrid, Spain
-🔗 [LinkedIn](https://www.linkedin.com/in/sergio-garcia-coretti/) | [Hack The Box](https://app.hackthebox.com/users/Egio7) | 📧 gartiero@protonmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/sergio-garcia-coretti/) | [Hack The Box](https://app.hackthebox.com/users/2591314) | 📧 gartiero@protonmail.com
 
 ---
 
