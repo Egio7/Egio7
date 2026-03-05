@@ -53,11 +53,17 @@ No luck. Moving to the web application.
 
 ### Web Application — IDOR Discovery
 
-Navigating to `http://10.129.9.171` reveals a security dashboard with network monitoring features. One section allows downloading packet capture (`.pcap`) files — the URL structure looks like this:
+Navigating to `http://10.129.9.171` reveals a security dashboard with network monitoring features.
+
+<img width="1600" height="832" alt="Screenshot 2026-03-05 123526" src="https://github.com/user-attachments/assets/024c1fb5-18e9-42e2-9c70-369db67926a8" />
+
+One section allows downloading packet capture (`.pcap`) files — the URL structure looks like this:
 
 ```
 http://10.129.9.171/data/1
 ```
+
+<img width="1600" height="828" alt="Screenshot 2026-03-05 123549" src="https://github.com/user-attachments/assets/a4f2d98b-acca-4eb5-8859-bbdbe0054e79" />
 
 The `/data/1` endpoint serves a `.pcap` file. The number at the end is a user-controlled ID — this is a classic **Insecure Direct Object Reference (IDOR)** situation. The application is not validating whether the requesting user owns that capture ID.
 
@@ -67,6 +73,8 @@ Changing `1` to `0`:
 http://10.129.9.171/data/0
 ```
 
+<img width="1597" height="824" alt="Screenshot 2026-03-05 123612" src="https://github.com/user-attachments/assets/6f30e871-e8ef-4215-8c17-b63760621e93" />
+
 This returns a different capture file — `0.pcap` — which is significantly larger and contains much more traffic.
 
 ---
@@ -75,12 +83,17 @@ This returns a different capture file — `0.pcap` — which is significantly la
 
 ### PCAP Analysis — Cleartext FTP Credentials
 
+<img width="1596" height="866" alt="Screenshot 2026-03-05 123632" src="https://github.com/user-attachments/assets/7dbe57d7-9f32-445b-af94-d59f729e3f8c" />
+
 Opening `0.pcap` in Wireshark and following the TCP stream reveals an FTP session with credentials transmitted in **cleartext**:
 
 ```
 USER nathan
 PASS Buck3tH4TF0RM3!
 ```
+<img width="1597" height="870" alt="Screenshot 2026-03-05 123651" src="https://github.com/user-attachments/assets/b80f0aac-90fa-453d-ae50-d76f87b54a22" />
+
+<img width="1588" height="869" alt="Screenshot 2026-03-05 123707" src="https://github.com/user-attachments/assets/cc14c8cb-9d98-4125-9d59-46aedd0cd5e9" />
 
 FTP does not encrypt credentials by default — everything is sent in plaintext, which is exactly why it shows up clearly in a packet capture.
 
@@ -164,6 +177,7 @@ LinPEAS also flagged something more interesting:
 ```
 /usr/bin/python3.8 = cap_setuid,cap_net_bind_service+eip
 ```
+<img width="1478" height="718" alt="Screenshot 2026-03-05 123935" src="https://github.com/user-attachments/assets/1f8b3dae-9467-4525-911c-94ebece4a525" />
 
 **Linux capabilities** are a way of granting specific elevated privileges to binaries without giving them full root. `cap_setuid` allows a process to set its User ID arbitrarily — including to UID 0 (root).
 
