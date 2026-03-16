@@ -133,7 +133,7 @@ echo "U0tIWDItVEs0UjMtWFlNNFYtOVpUTE4=" | base64 -d
 # SKHX2-TK4R3-XYM4V-9ZTLN
 ```
 
-Entering this at `/invite` allows registration. After creating an account and logging in, we have access to the dashboard.
+Entering this at `/invite` allows registration. This time around we will be using the mail "password@password.com", user "password" and password "password", just for fun. After creating an account and logging in, we have access to the dashboard.
 
 ---
 
