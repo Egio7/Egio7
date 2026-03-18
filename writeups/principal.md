@@ -1,3 +1,4 @@
+<!-- HTB Principal writeup, Hack The Box Principal walkthrough, CVE-2026-29000 pac4j-jwt bypass, HTB medium linux writeup -->
 # Principal — Hack The Box Writeup
 
 **Machine:** Principal  
