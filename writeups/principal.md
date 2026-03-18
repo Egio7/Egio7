@@ -10,7 +10,7 @@
 
 ## Summary
 
-Principal is a medium Linux machine running a Java web application ("Principal Internal Platform") built on pac4j-jwt 6.0.3 and served by Jetty on port 8080. The attack chain exploits **CVE-2026-29000**, a critical (CVSS 10.0) authentication bypass in pac4j-jwt that allows forging admin tokens without any credentials — using only the server's RSA public key, which is intentionally exposed. Once authenticated, the API leaks an encryption key and the path to an SSH Certificate Authority. The CA private key is readable by the `svc-deploy` service account we land as, allowing us to sign our own SSH certificate for root and complete the privilege escalation.
+Principal is a medium Linux machine running a Java web application ("Principal Internal Platform") built on pac4j-jwt 1.2.0 and served by Jetty on port 8080. The attack chain exploits **CVE-2026-29000**, a critical (CVSS 10.0) authentication bypass in pac4j-jwt that allows forging admin tokens without any credentials — using only the server's RSA public key, which is intentionally exposed. Once authenticated, the API leaks an encryption key and the path to an SSH Certificate Authority. The CA private key is readable by the `svc-deploy` service account we land as, allowing us to sign our own SSH certificate for root and complete the privilege escalation.
 
 **Key techniques:** Service fingerprinting · JavaScript source analysis · CVE-2026-29000 (JWE PlainJWT authentication bypass) · JWT/JWE manual forgery · API credential harvesting · SSH Certificate Authority abuse
 
@@ -31,15 +31,12 @@ PORT     STATE SERVICE    VERSION
 22/tcp   open  ssh        OpenSSH 9.6p1 Ubuntu 3ubuntu13.14
 8080/tcp open  http-proxy Jetty
 | http-title: Principal Internal Platform - Login
-| X-Powered-By: pac4j-jwt/6.0.3
+|_Requested resource was /login
 ```
 
-Two services: SSH and a Jetty web server. The HTTP response headers immediately expose two critical details:
+Two services: SSH and a Jetty web server. The HTTP response headers immediately expose a critical detail:
 
-- The application name and version: **pac4j-jwt/6.0.3**
 - The page redirects to `/login`
-
-Knowing the exact library version (6.0.3) is immediately actionable — it falls within the affected range for CVE-2026-29000, a critical authentication bypass.
 
 ---
 
@@ -371,7 +368,7 @@ root@principal:~# cat /root/root.txt
 | Vulnerability | Location | Impact |
 |---|---|---|
 | Public JWKS without authentication | `/api/auth/jwks` | RSA public key exposed to unauthenticated users |
-| CVE-2026-29000 — PlainJWT bypass | pac4j-jwt 6.0.3 | Full authentication bypass using public key only |
+| CVE-2026-29000 — PlainJWT bypass | pac4j-jwt 1.2.0 | Full authentication bypass using public key only |
 | Sensitive credential in API response | `/api/settings` → `encryptionKey` | Plaintext SSH password exposed to any authenticated session |
 | SSH CA private key readable by service account | `/opt/principal/ssh/ca` | Sign certificate for any principal → root via SSH |
 
@@ -381,7 +378,7 @@ root@principal:~# cat /root/root.txt
 
 **Read client-side JavaScript thoroughly.** `app.js` documented the entire authentication flow, claim schema, encryption algorithms, and every API endpoint. This eliminated all guesswork about how the token system worked and what parameters to forge. In real engagements, developers routinely leave far more in client-side code than they should.
 
-**Know your CVEs.** The Nmap fingerprint gave us `pac4j-jwt/6.0.3` immediately. Recognising that version as vulnerable and understanding *why* (PlainJWT bypass inside JWE) made exploitation direct rather than exploratory.
+**Know your CVEs.** The version was identified from the login page footer: `v1.2.0 | Powered by pac4j`. Cross-referencing this against CVE-2026-29000's affected range (pac4j-jwt < 6.3.3) confirms the target is vulnerable. Recognising that version as vulnerable and understanding *why* (PlainJWT bypass inside JWE) made exploitation direct rather than exploratory.
 
 **Public keys are not always safe.** Normally exposing an RSA public key is a non-issue. CVE-2026-29000 turns it into a full authentication bypass. The `alg: none` attack surface has existed since JWT was introduced — libraries handling JWE+JWT combinations must explicitly reject unsigned inner tokens regardless of the outer encryption.
 
