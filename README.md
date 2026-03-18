@@ -49,12 +49,13 @@ Long-term goal: offensive security operations at EU level.
 
 | Machine | OS | Difficulty | Writeup |
 |---------|----|------------|---------|
-| Cap | Linux | Easy | [View](./writeups/cap.md) |
-| Expressway | Linux | Easy | [View](./writeups/expressway.md) |
-| Facts | Linux | Easy | [View](./writeups/facts.md) |
-| Conversor | Linux | Easy | [View](./writeups/conversor.md) |
-| WingData | Linux | Easy | [View](./writeups/wingdata.md) |
+| Principal | Linux | Medium | [View](./writeups/principal.md) |
 | TwoMillion | Linux | Easy | [View](./writeups/twomillion.md) |
+| Cap | Linux | Easy | [View](./writeups/cap.md) |
+| Expressway | Linux | Easy | [View](./writeups/expressway.md)  (Not retired)|
+| Facts | Linux | Easy | [View](./writeups/facts.md)  (Not retired)|
+| Conversor | Linux | Easy | [View](./writeups/conversor.md)  (Not retired)|
+| WingData | Linux | Easy | [View](./writeups/wingdata.md)  (Not retired)|
 
 *More writeups added regularly as machines retire.*
 
