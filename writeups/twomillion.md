@@ -133,6 +133,8 @@ echo "U0tIWDItVEs0UjMtWFlNNFYtOVpUTE4=" | base64 -d
 # SKHX2-TK4R3-XYM4V-9ZTLN
 ```
 
+<img width="1314" height="662" alt="Screenshot 2026-03-20 185634" src="https://github.com/user-attachments/assets/5eaaee00-8e40-4f9d-95c1-d66c57b8e335" />
+
 Entering this at `/invite` allows registration. This time around we will be using the mail "password@password.com", user "password" and password "password", just for fun. After creating an account and logging in, we have access to the dashboard.
 
 ---
@@ -140,6 +142,8 @@ Entering this at `/invite` allows registration. This time around we will be usin
 ## API Enumeration — Discovering Admin Endpoints
 
 The dashboard has limited functionality, but the VPN buttons in the HTML point to `/api/v1/user/vpn/...`, which suggests the app is fully API-driven. API-driven apps often expose a root endpoint that lists all available routes.
+
+<img width="1638" height="785" alt="Screenshot 2026-03-20 185653" src="https://github.com/user-attachments/assets/2a985666-4a1a-4774-b24a-a1e782c3bb58" />
 
 First, grab the session cookie from browser dev tools (Application → Cookies → `PHPSESSID`), then query the API root:
 
