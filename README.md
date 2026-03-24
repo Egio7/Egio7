@@ -52,6 +52,7 @@ Long-term goal: offensive security operations at EU level.
 |---------|----|------------|---------|
 | Principal | Linux | Medium | [View](./writeups/principal.md) |
 | VariaType | Linux | Medium | [View](./writeups/variatype.md)  (Not retired)|
+| Support | Windows | Easy | [View](./writeups/support.md) |
 | TwoMillion | Linux | Easy | [View](./writeups/twomillion.md) |
 | Expressway | Linux | Easy | [View](./writeups/expressway.md) |
 | Conversor | Linux | Easy | [View](./writeups/conversor.md)|
