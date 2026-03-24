@@ -46,6 +46,8 @@ sudo echo "10.129.12.253  conversor.htb" >> /etc/hosts
 
 Navigating to `http://conversor.htb` presents a login page. Registration is open — creating an account with any credentials grants access to the dashboard.
 
+<img width="1313" height="711" alt="Screenshot 2026-03-24 115937" src="https://github.com/user-attachments/assets/faa0ca91-a18a-44c2-99a4-e14978a1c112" />
+
 The application describes itself as a tool for converting Nmap XML output into a more readable HTML format. It accepts two uploaded files: an XML file and an XSLT stylesheet.
 
 ### Directory Enumeration
