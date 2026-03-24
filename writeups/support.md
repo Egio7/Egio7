@@ -151,7 +151,9 @@ The binary connects to LDAP as `support\ldap` using a password that is Base64-de
 
 ### Decrypting the Password
 
-`# In python`
+```bash
+# In python`
+```
 ```python
 import base64
 
