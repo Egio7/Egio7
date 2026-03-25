@@ -51,14 +51,14 @@ Long-term goal: offensive security operations at EU level.
 | Machine | OS | Difficulty | Writeup |
 |---------|----|------------|---------|
 | Principal | Linux | Medium | [View](./writeups/principal.md) |
-| VariaType | Linux | Medium | [View](./writeups/variatype.md)  (Not retired)|
+| VariaType | Linux | Medium | ⏳ [View](./writeups/variatype.md)  (Not retired)|
 | Support | Windows | Easy | [View](./writeups/support.md) |
 | TwoMillion | Linux | Easy | [View](./writeups/twomillion.md) |
 | Expressway | Linux | Easy | [View](./writeups/expressway.md) |
 | Conversor | Linux | Easy | [View](./writeups/conversor.md)|
 | Cap | Linux | Easy | [View](./writeups/cap.md) |
-| Facts | Linux | Easy | [View](./writeups/facts.md)  (Not retired)|
-| WingData | Linux | Easy | [View](./writeups/wingdata.md)  (Not retired)|
+| Facts | Linux | Easy | ⏳ [View](./writeups/facts.md)  (Not retired)|
+| WingData | Linux | Easy | ⏳ [View](./writeups/wingdata.md)  (Not retired)|
 
 *More writeups added regularly as machines retire.*
 
