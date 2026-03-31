@@ -3,3 +3,5 @@
 | Machine | OS | Difficulty | Writeup |
 |---------|----|------------|---------|
 | VariaType | Linux | Medium | ⏳ (Not retired) |
+--- 
+*Coming soon.*
