@@ -1,4 +1,3 @@
-<!-- <meta name="google-site-verification" content="8z56Y3xRXB9eVn8x0ahYUNmW0bSBSVkpsPWmiMIr-hM" /> -->
 # Sergio García Coretti
 
 **Cybersecurity Analyst in Training — HTB CJCA Certified | CPTS Candidate**
