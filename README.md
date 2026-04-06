@@ -52,7 +52,8 @@ Long-term goal: offensive security operations at EU level.
 | Principal | Linux | Medium | [View](./writeups/principal.md) |
 | VariaType | Linux | Medium | ⏳ [View](./writeups/variatype.md)  (Not retired)|
 | Support | Windows | Easy | [View](./writeups/support.md) |
-| MonitorsFour | Windows | Easy | ⏳ [View](./writeups/monitorsfour.md) (Not retired)|
+| Kobold | Linux | Easy | ⏳ [View](./writeups/kobold.md) (Not retired)|
+| WingData | Linux | Easy | ⏳ [View](./writeups/wingdata.md)  (Not retired)|
 | CCTV | Linux | Easy | ⏳ [View](./writeups/cctv.md) (Not retired)|
 | TwoMillion | Linux | Easy | [View](./writeups/twomillion.md) |
 | Expressway | Linux | Easy | [View](./writeups/expressway.md) |
