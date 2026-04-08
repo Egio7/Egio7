@@ -61,7 +61,6 @@ Long-term goal: offensive security operations at EU level.
 | Conversor | Linux | Easy | [View](./writeups/conversor.md)|
 | Cap | Linux | Easy | [View](./writeups/cap.md) |
 | Facts | Linux | Easy | ⏳ [View](./writeups/facts.md)  (Not retired)|
-| WingData | Linux | Easy | ⏳ [View](./writeups/wingdata.md)  (Not retired)|
 
 *More writeups added regularly as machines retire.*
 
