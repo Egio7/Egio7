@@ -49,18 +49,19 @@ Long-term goal: offensive security operations at EU level.
 
 | Machine | OS | Difficulty | Writeup |
 |---------|----|------------|---------|
-| Principal | Linux | Medium | [View](./writeups/principal.md) |
-| VariaType | Linux | Medium | ⏳ [View](./writeups/variatype.md)  (Not retired)|
-| Support | Windows | Easy | [View](./writeups/support.md) |
-| MonitorsFour | Windows | Easy | ⏳ [View](./writeups/monitorsfour.md) (Not retired)|
-| Kobold | Linux | Easy | ⏳ [View](./writeups/kobold.md) (Not retired)|
-| WingData | Linux | Easy | ⏳ [View](./writeups/wingdata.md)  (Not retired)|
-| CCTV | Linux | Easy | ⏳ [View](./writeups/cctv.md) (Not retired)|
-| TwoMillion | Linux | Easy | [View](./writeups/twomillion.md) |
-| Expressway | Linux | Easy | [View](./writeups/expressway.md) |
-| Conversor | Linux | Easy | [View](./writeups/conversor.md)|
 | Cap | Linux | Easy | [View](./writeups/cap.md) |
+| CCTV | Linux | Easy | ⏳ [View](./writeups/cctv.md) (Not retired)|
+| Conversor | Linux | Easy | [View](./writeups/conversor.md)|
+| Expressway | Linux | Easy | [View](./writeups/expressway.md) |
 | Facts | Linux | Easy | ⏳ [View](./writeups/facts.md)  (Not retired)|
+| Kobold | Linux | Easy | ⏳ [View](./writeups/kobold.md) (Not retired)|
+| MonitorsFour | Windows | Easy | ⏳ [View](./writeups/monitorsfour.md) (Not retired)|
+| Principal | Linux | Medium | [View](./writeups/principal.md) |
+| Support | Windows | Easy | [View](./writeups/support.md) |
+| TwoMillion | Linux | Easy | [View](./writeups/twomillion.md) |
+| VariaType | Linux | Medium | ⏳ [View](./writeups/variatype.md)  (Not retired)|
+| WingData | Linux | Easy | ⏳ [View](./writeups/wingdata.md)  (Not retired)|
+
 
 *More writeups added regularly as machines retire.*
 
