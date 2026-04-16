@@ -342,8 +342,12 @@ C:\Windows\system32> whoami
 nt authority\system
 
 C:\Windows\system32> type C:\Users\Administrator\Desktop\root.txt
-63c37605f18b2d3103d2126ed7cec996
+# 63c37605f18b2d3103d2126ed7cec996
 ```
+
+---
+
+<!-- Completion Image Here -->
 
 ---
 
