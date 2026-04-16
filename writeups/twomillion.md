@@ -373,6 +373,10 @@ cat /root/root.txt
 
 ---
 
+<!-- Completion Image Here -->
+
+---
+
 ## Vulnerability Summary
 
 | Vulnerability | Location | Impact |
