@@ -199,6 +199,9 @@ root
 # cat /root/root.txt
 7bcb47acf02f9ffb7740b74cbb20ba62
 ```
+---
+
+<!-- Completion Image Here -->
 
 ---
 
