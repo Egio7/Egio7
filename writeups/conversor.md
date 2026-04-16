@@ -322,6 +322,10 @@ rm -rf /tmp/malicious
 
 ---
 
+<!-- Completion Image Here -->
+
+---
+
 ## Vulnerability Summary
 
 | Vulnerability | Location | Impact |
