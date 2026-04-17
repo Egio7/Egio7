@@ -52,6 +52,7 @@ Long-term goal: offensive security operations at EU level.
 | Cap | Linux | Easy | [View](./writeups/cap.md) |
 | CCTV | Linux | Easy | ⏳ [View](./writeups/cctv.md) (Not retired)|
 | Conversor | Linux | Easy | [View](./writeups/conversor.md)|
+| Eighteen | Windows | Easy | [View](./writeups/eighteen.md) In Progress|
 | Expressway | Linux | Easy | [View](./writeups/expressway.md) |
 | Facts | Linux | Easy | ⏳ [View](./writeups/facts.md)  (Not retired)|
 | Kobold | Linux | Easy | ⏳ [View](./writeups/kobold.md) (Not retired)|
