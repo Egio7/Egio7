@@ -139,6 +139,7 @@ with open("/usr/share/wordlists/rockyou.txt", "r", encoding="latin-1") as f:
 [+] Password found: iloveyou1
 ```
 User "admin" and password "iloveyou1" allow login as administrator on the web, however, this is a dead end.
+
 <img width="1833" height="902" alt="Screenshot 2026-04-18 121711" src="https://github.com/user-attachments/assets/7f9d169f-f6cc-4598-a074-9a6bb803f6c0" />
 
 ---
