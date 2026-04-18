@@ -46,6 +46,8 @@ sudo sh -c "echo '10.129.32.227 eighteen.htb DC01.eighteen.htb' >> /etc/hosts"
 
 ## Web Application
 
+<img width="1838" height="874" alt="Screenshot 2026-04-18 121458" src="https://github.com/user-attachments/assets/ba192daf-cf99-4d36-9a76-d99c4fb8ba09" />
+
 Navigating to `http://eighteen.htb` shows a financial planning platform. There are `/login` and `/register` endpoints. Registering an account and logging in with it — or attempting common credentials — yields nothing of interest. The provided credentials `kevin / iNa2we6haRj2gaw!` do not work on the web login either.
 
 The real entry point is MSSQL.
@@ -87,9 +89,9 @@ SQL (appdev  appdev@financial_planner)> select * from users
 ```
 
 ```
-id    username   email                password_hash                                                        is_admin
+id    username   email                password_hash                                                            is_admin
 ----  ---------  -------------------  -----------------------------------------------------------------------  --------
-1002  admin      admin@eighteen.htb   pbkdf2:sha256:600000$AMtzteQIG7yAbZIa$0673ad90...                      1
+1002  admin      admin@eighteen.htb   pbkdf2:sha256:600000$AMtzteQIG7yAbZIa$0673ad90...                        1
 ```
 
 The hash is Flask's PBKDF2-SHA256 format with 600,000 iterations.
@@ -136,6 +138,8 @@ with open("/usr/share/wordlists/rockyou.txt", "r", encoding="latin-1") as f:
 ```
 [+] Password found: iloveyou1
 ```
+User "admin" and password "iloveyou1" allow login as administrator on the web, however, this is a dead end.
+<img width="1833" height="902" alt="Screenshot 2026-04-18 121711" src="https://github.com/user-attachments/assets/7f9d169f-f6cc-4598-a074-9a6bb803f6c0" />
 
 ---
 
