@@ -4,7 +4,7 @@
 **OS:** Linux  
 **Difficulty:** Easy  
 **Status:** Retired  
-**Date Completed:** March 2026  
+**Date Completed:** December 2026  
 
 ---
 
