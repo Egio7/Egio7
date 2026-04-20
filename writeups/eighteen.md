@@ -312,7 +312,7 @@ Kerberos requires clock synchronisation. Sync first:
 
 ```bash 
 sudo date -s "$(curl -Iv http://10.129.32.227 2>/dev/null | grep Date | sed 's/Date: //g')"
-# Repeat whenever the output is "Clock skew too great", then immediately run the next command.
+# Repeat whenever the output is "Clock skew too great", then immediately run the next command
 ```
 
 Get a TGT for adam.scott:
