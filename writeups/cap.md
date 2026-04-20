@@ -202,6 +202,8 @@ root
 ---
 
 <!-- Completion Image Here -->
+<img width="1199" height="684" alt="Screenshot 2026-04-20 155050" src="https://github.com/user-attachments/assets/419c8b88-7d3c-480b-a0ca-2a9ef32b8387" />
+
 
 ---
 
