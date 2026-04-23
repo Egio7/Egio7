@@ -323,6 +323,7 @@ rm -rf /tmp/malicious
 ---
 
 <!-- Completion Image Here -->
+<img width="1191" height="680" alt="Screenshot 2026-04-23 120714" src="https://github.com/user-attachments/assets/94264356-414e-4fae-8828-6b64938c41b5" />
 
 ---
 
