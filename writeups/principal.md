@@ -368,6 +368,7 @@ root@principal:~# cat /root/root.txt
 ---
 
 <!-- Completion Image Here -->
+<img width="1194" height="685" alt="Screenshot 2026-04-28 103727" src="https://github.com/user-attachments/assets/af765577-ae7b-4f09-bccc-04a683f9777e" />
 
 ---
 
