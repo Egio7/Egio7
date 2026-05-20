@@ -348,6 +348,7 @@ C:\Windows\system32> type C:\Users\Administrator\Desktop\root.txt
 ---
 
 <!-- Completion Image Here -->
+<img width="1196" height="679" alt="Screenshot 2026-04-28 103842" src="https://github.com/user-attachments/assets/f71eabdd-14fe-4941-a9cd-5398d3884a15" />
 
 ---
 
