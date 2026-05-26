@@ -56,7 +56,7 @@ Long-term goal: offensive security operations at EU level.
 | Expressway | Linux | Easy | [View](./writeups/expressway.md) |
 | Facts | Linux | Easy | ⏳ [View](./writeups/facts.md)  (Not retired)|
 | Kobold | Linux | Easy | ⏳ [View](./writeups/kobold.md) (Not retired)|
-| MonitorsFour | Windows | Easy | ⏳ [View](./writeups/monitorsfour.md) (Not retired)|
+| MonitorsFour | Windows | Easy | [View](./writeups/monitorsfour.md)|
 | Principal | Linux | Medium | [View](./writeups/principal.md) |
 | Silentium | Linux | Easy | ⏳ [View](./writeups/silentium.md) (Not retired)|
 | Support | Windows | Easy | [View](./writeups/support.md) |
