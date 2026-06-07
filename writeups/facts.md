@@ -49,6 +49,8 @@ MinIO is a self-hosted S3-compatible object storage service. Port 54321 is the A
 
 ### Web Application — Camaleon CMS
 
+<img width="1890" height="822" alt="Screenshot_2026-03-27_06_59_22" src="https://github.com/user-attachments/assets/3150306c-40eb-437a-80fb-427e886b07e4" />
+
 Navigating to `http://facts.htb` shows a trivia content site built on **Camaleon CMS**. Directory enumeration with Gobuster reveals an admin panel:
 
 ```bash
