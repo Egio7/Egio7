@@ -148,6 +148,8 @@ AWS S3 Access Key: AKIA605C390525298C36
 AWS S3 Secret Key: WfH44q1UJbsU+tWDYNdIjONp4QduMq1j4F31zLxO
 ```
 
+<img width="1918" height="928" alt="Screenshot_2026-03-27_08_19_26" src="https://github.com/user-attachments/assets/7e1a96e3-952e-4de5-a745-ff57e145399c" />
+
 Given that MinIO is running locally on port 54321, these are MinIO credentials — not real AWS keys. MinIO uses the same access key / secret key format as S3, which is why the CMS treats them as equivalent.
 
 ---
