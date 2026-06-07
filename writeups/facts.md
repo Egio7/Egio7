@@ -69,6 +69,8 @@ Note: many paths returned 200 with identical body sizes (~11110 bytes) — this 
 
 ### Admin Panel — Version Fingerprinting
 
+<img width="1920" height="1080" alt="Screenshot_2026-03-27_07_01_29" src="https://github.com/user-attachments/assets/abda034f-ae39-4d11-8867-a09ace563c7b" />
+
 Navigating to `/admin/login` reveals a login form. Default credentials (`admin:admin`) don't work, but self-registration is open. Registering an account (`user123 / Password123!`) and logging in exposes the CMS version in the dashboard footer:
 
 ```
