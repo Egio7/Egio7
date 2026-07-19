@@ -453,6 +453,9 @@ ssh -i /tmp/htb_key root@10.129.11.86
 root@variatype:~# cat /root/root.txt
 # 38b16cfc14afef0e046e20d9c1769429
 ```
+---
+
+<img width="1195" height="677" alt="Screenshot 2026-04-28 103930" src="https://github.com/user-attachments/assets/300aae57-710d-4e90-a822-18e559d97fbd" />
 
 ---
 
@@ -479,5 +482,3 @@ root@variatype:~# cat /root/root.txt
 ---
 
 *Part of my HTB writeup series — [back to portfolio](https://github.com/Egio7)*
----
-<img width="1195" height="677" alt="Screenshot 2026-04-28 103930" src="https://github.com/user-attachments/assets/300aae57-710d-4e90-a822-18e559d97fbd" />
