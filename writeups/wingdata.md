@@ -259,6 +259,10 @@ root@wingdata:/home/wacky# cat /root/root.txt
 
 ---
 
+<img width="1200" height="681" alt="Screenshot 2026-04-28 103950" src="https://github.com/user-attachments/assets/4caf179b-c444-43ed-9931-8fdf3cfef3be" />
+
+---
+
 ## Vulnerability Summary
 
 | Vulnerability | Location | Impact |
@@ -282,8 +286,3 @@ root@wingdata:/home/wacky# cat /root/root.txt
 ---
 
 *Part of my HTB writeup series — [back to portfolio](https://github.com/Egio7)*
----
-
-<img width="1200" height="681" alt="Screenshot 2026-04-28 103950" src="https://github.com/user-attachments/assets/4caf179b-c444-43ed-9931-8fdf3cfef3be" />
-
----
