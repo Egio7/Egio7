@@ -51,7 +51,7 @@ Long-term goal: offensive security operations at EU level.
 |---------|----|------------|---------|
 | Bedside | Linux | Medium | ⏳ [View](./writeups/bedside.md) (Not retired) |
 | Cap | Linux | Easy | [View](./writeups/cap.md) |
-| CCTV | Linux | Easy | ⏳ [View](./writeups/cctv.md) (Not retired)|
+| CCTV | Linux | Easy | [View](./writeups/cctv.md) |
 | Conversor | Linux | Easy | [View](./writeups/conversor.md)|
 | DevHub | Linux | Medium | ⏳ [View](./writeups/devhub.md) (Not retired)|
 | Eighteen | Windows | Easy | [View](./writeups/eighteen.md)|
