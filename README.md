@@ -68,7 +68,7 @@ Long-term goal: offensive security operations at EU level.
 | WingData | Linux | Easy | [View](./writeups/wingdata.md) |
 
 
-*More writeups added regularly as machines retire.*
+*📜 More writeups added regularly as machines retire.*
 
 ---
 
