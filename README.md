@@ -67,20 +67,9 @@ Long-term goal: offensive security operations at EU level.
 | VariaType | Linux | Medium | [View](./writeups/variatype.md) |
 | WingData | Linux | Easy | [View](./writeups/wingdata.md) |
 
-| In Progress | | |
+| In Progress | Loading... ↻◌◌◌ | ✎﹏ |
 |---|---|---| 
 | Cohort | Linux | Easy |
-
-<table>
-  <tr>
-    <th>name</th>
-    <th>cells 2 and 3</th>
-  </tr>
-  <tr>
-    <td>name</td>
-    <td colspan="2">name | name</td> 
-  </tr>
-</table>   
 
 *📜 More writeups added regularly as machines retire.*
 
