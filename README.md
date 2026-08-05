@@ -67,7 +67,7 @@ Long-term goal: offensive security operations at EU level.
 | VariaType | Linux | Medium | [View](./writeups/variatype.md) |
 | WingData | Linux | Easy | [View](./writeups/wingdata.md) |
 
-| In Progress | | |
+| In Progress |  |
 |---|---|---| 
 | Cohort | Linux | Easy |
 
