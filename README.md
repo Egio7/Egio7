@@ -71,6 +71,7 @@ Long-term goal: offensive security operations at EU level.
 |---|---|---| 
 | Cohort | Linux | Easy |
 | Enigma | Linux | Easy |
+|...|...|...|
 | Loading... ↻◌◌◌ | ✎﹏ |  |
 
 *📜 More writeups added regularly as machines retire.*
