@@ -126,6 +126,8 @@ cat /home/ben/user.txt
 
 Running linpeas reveals that `ben` has a suppressed `docker` group membership — it is not the active GID at login, so it does not appear in the initial `id` output, but it is available and can be activated without a password.
 
+<!-- Unintended way -->
+
 ```bash
 id
 # uid=1001(ben) gid=1001(ben) groups=1001(ben),37(operator)
