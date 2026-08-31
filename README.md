@@ -82,7 +82,6 @@ Long-term goal: offensive security operations at EU level.
 
 - 📚 HTB CPTS — Penetration Tester Job Role Path
 - 🖥️ HTB machines — building writeup portfolio
-- 🔧 Gemini CLI on Kali — security workflow integration guide
 
 ---
 
