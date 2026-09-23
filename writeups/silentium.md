@@ -288,6 +288,11 @@ root@silentium:/opt/gogs/gogs/data/tmp/local-repo/12# cat /root/root.txt
 # f17625a306caca7738353d4cacf265f2
 ```
 
+
+---
+
+<img width="1194" height="682" alt="Screenshot 2026-04-28 103805" src="https://github.com/user-attachments/assets/ac04431d-e219-44f0-a76a-71cf6729a7ad" />
+
 ---
 
 ## Vulnerability Summary
@@ -314,6 +319,3 @@ root@silentium:/opt/gogs/gogs/data/tmp/local-repo/12# cat /root/root.txt
 ---
 
 *Part of my HTB writeup series — [back to portfolio](https://github.com/Egio7)*
-
----
-<img width="1194" height="682" alt="Screenshot 2026-04-28 103805" src="https://github.com/user-attachments/assets/ac04431d-e219-44f0-a76a-71cf6729a7ad" />
