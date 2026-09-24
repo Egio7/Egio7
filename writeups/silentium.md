@@ -1,13 +1,9 @@
 # Silentium — Hack The Box Writeup
 
 **Machine:** Silentium 
-
 **OS:** Linux 
-
 **Difficulty:** Easy 
-
 **Status:** Retired 
-
 **Date Completed:** April 2026 
 
 ---
