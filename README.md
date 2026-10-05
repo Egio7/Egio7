@@ -60,7 +60,7 @@ Long-term goal: offensive security operations at EU level.
 | Kobold | Linux | Easy | [View](./writeups/kobold.md) |
 | MonitorsFour | Windows | Easy | [View](./writeups/monitorsfour.md)|
 | Principal | Linux | Medium | [View](./writeups/principal.md) |
-| Reactor | Linux | Easy | ⏳ [View](./writeups/reactor.md) (Not retired)|
+| Reactor | Linux | Easy | [View](./writeups/reactor.md) |
 | Silentium | Linux | Easy | [View](./writeups/silentium.md) |
 | Support | Windows | Easy | [View](./writeups/support.md) |
 | TwoMillion | Linux | Easy | [View](./writeups/twomillion.md) |
