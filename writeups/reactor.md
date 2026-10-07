@@ -3,7 +3,7 @@
 **Machine:** Reator  
 **Difficulty:** Easy   
 **OS:** Linux   
-**Date Completed:** -   
+**Date Completed:** May 2026   
 
 ---
 
