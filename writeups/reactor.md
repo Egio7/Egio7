@@ -200,6 +200,10 @@ cat /root/root.txt
 
 ---
 
+<img width="1196" height="672" alt="Screenshot 2026-05-27 205216" src="https://github.com/user-attachments/assets/4620fd7c-da3b-4df1-88f0-e55b9fefa0d4" />
+
+---
+
 ## Key Takeaways
 
 - **CVE-2025-55182** is a critical unauthenticated RCE in Next.js affecting the RSC pipeline — always check framework versions on web targets.
@@ -207,8 +211,3 @@ cat /root/root.txt
 - **Node.js `--inspect` on localhost** is a classic privesc vector when running as a privileged user — any local user can attach via CDP and execute code in that process's context.
 - When `require` is unavailable in an evaluated expression, `process.mainModule.require` is a reliable fallback.
 
----
-
-<img width="1196" height="672" alt="Screenshot 2026-05-27 205216" src="https://github.com/user-attachments/assets/4620fd7c-da3b-4df1-88f0-e55b9fefa0d4" />
-
----
