@@ -63,6 +63,7 @@ Long-term goal: offensive security operations at EU level.
 | Reactor | Linux | Easy | [View](./writeups/reactor.md) |
 | Silentium | Linux | Easy | [View](./writeups/silentium.md) |
 | Support | Windows | Easy | [View](./writeups/support.md) |
+| Touch | Windows | Easy | ⏳ [View](./writeups/touch.md) (Not retired) |
 | TwoMillion | Linux | Easy | [View](./writeups/twomillion.md) |
 | VariaType | Linux | Medium | [View](./writeups/variatype.md) |
 | WingData | Linux | Easy | [View](./writeups/wingdata.md) |
