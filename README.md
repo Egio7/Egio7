@@ -52,13 +52,13 @@ Long-term goal: offensive security operations at EU level.
 | Bedside | Linux | Medium | ⏳ [View](./writeups/bedside.md) (Not retired) |
 | Cap | Linux | Easy | [View](./writeups/cap.md) |
 | CCTV | Linux | Easy | [View](./writeups/cctv.md) |
-| Conversor | Linux | Easy | [View](./writeups/conversor.md)|
-| DevHub | Linux | Medium | ⏳ [View](./writeups/devhub.md) (Not retired)|
+| Conversor | Linux | Easy | [View](./writeups/conversor.md) |
+| DevHub | Linux | Medium | [View](./writeups/devhub.md) |
 | Eighteen | Windows | Easy | [View](./writeups/eighteen.md)|
 | Expressway | Linux | Easy | [View](./writeups/expressway.md) |
 | Facts | Linux | Easy | [View](./writeups/facts.md) |
 | Kobold | Linux | Easy | [View](./writeups/kobold.md) |
-| MonitorsFour | Windows | Easy | [View](./writeups/monitorsfour.md)|
+| MonitorsFour | Windows | Easy | [View](./writeups/monitorsfour.md) |
 | Principal | Linux | Medium | [View](./writeups/principal.md) |
 | Reactor | Linux | Easy | [View](./writeups/reactor.md) |
 | Silentium | Linux | Easy | [View](./writeups/silentium.md) |
