@@ -265,6 +265,10 @@ root@devhub:~# cat /root/root.txt
 
 ---
 
+<img width="1195" height="680" alt="Screenshot 2026-06-03 143707" src="https://github.com/user-attachments/assets/6ccdf777-f63d-412e-8769-36067c46c54a" />
+
+---
+
 ## Vulnerability Summary
 
 | Vulnerability | Location | Impact |
@@ -289,6 +293,3 @@ root@devhub:~# cat /root/root.txt
 ---
 
 *Part of my HTB writeup series — [back to portfolio](https://github.com/Egio7)*
-
----
-<img width="1195" height="680" alt="Screenshot 2026-06-03 143707" src="https://github.com/user-attachments/assets/6ccdf777-f63d-412e-8769-36067c46c54a" />
