@@ -21,6 +21,7 @@ Long-term goal: offensive security operations at EU level.
 |------|--------|--------|
 | HTB Certified Junior Cybersecurity Associate (CJCA) | Hack The Box | ✅ Obtained — Mar 2026 |
 | HTB Certified Penetration Testing Specialist (CPTS) | Hack The Box | 🔄 In Progress |
+| - | - | - |
 
 ---
 
