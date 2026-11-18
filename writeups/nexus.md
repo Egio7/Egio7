@@ -352,6 +352,10 @@ root@nexus:~# cat root.txt
 
 ---
 
+<img width="1196" height="667" alt="Screenshot 2026-11-18 162643" src="https://github.com/user-attachments/assets/f5cdfdaa-84f6-4514-b2f0-0934b690bc38" />
+
+---
+
 ## Vulnerability Summary
 
 | Vulnerability | Location | Impact |
